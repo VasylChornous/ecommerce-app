@@ -4,7 +4,6 @@ import Title from "../components/Title";
 
 const Orders = () => {
   const { products, currency } = useContext(ShopContext);
-  console.log(products, 444);
 
   return (
     <div className="border-t pt-16">
